@@ -1,0 +1,124 @@
+#main {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin: 1%;
+}
+
+#wives {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.main {
+    min-height: 750px;
+    height: 500px;
+    margin: 20px;
+    outline: 4px solid rgba(224, 0, 0, 0.493);
+    background-color: rgb(238, 238, 238);
+    border-radius: 4px;
+    box-shadow: 10px 10px 41px -17px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 41px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 41px -17px rgba(0,0,0,0.75);
+}
+
+/*512px*/
+
+@media only screen and (max-width: 515px) {
+    .main {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .main {
+        height: 1100px;
+    }
+}
+
+@media only screen and (min-width: 1515px) {
+    #wives {
+        margin: 0 7.5% 0 7.5%;
+    }
+}
+
+.div {
+    height: 100px;
+}
+
+.nameImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width:150px;
+    margin: 10px;
+}
+
+.detailSpan {
+    font-weight: 900;
+    font-size: .95em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+}
+.detail {
+    font-size: 1.05em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 10px;
+}
+
+.howWeMetDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.howWeMet {
+    margin:10px ;
+}
+
+.kidsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.killDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.howItEndedDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.howItEnded {
+    margin:10px ;
+}
+
+
+
